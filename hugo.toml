@@ -1,0 +1,4 @@
+baseURL = 'https://chloeantoine.github.io/'
+languageCode = 'en-us'
+title = 'Chloé Antoine'
+theme = 'ananke'
