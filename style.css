@@ -1,0 +1,143 @@
+/*---------------------------------------------------*/
+/*---------------------------------------------------*/
+
+html {
+  font-family: "Noto Sans", sans-serif;
+}
+
+body {
+  padding: 2ex;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a, a:visited {
+  text-decoration: none;
+  color: #32a861
+}
+
+a:hover {
+  background-color: #fbeeac;
+}
+
+hr {
+  border: 0;
+  background: #a5a5a5;
+  height: 1px;
+  margin: 0 0 20px;
+}
+
+/*---------------------------------------------------*/
+/*---------------------------------------------------*/
+
+.wrapper {
+  margin: auto;
+  max-width: 800px;
+}
+
+img.me {
+  width: 100%;
+}
+
+header {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+main {
+  margin-left: 200px;
+  padding-left: 3em;
+  text-align: justify;
+  p {
+    color: #777;
+  }
+  b {
+    color: #000;
+  }
+}
+
+/*---------------------------------------------------*/
+/*---------------------------------------------------*/
+
+.section {
+  border-bottom: solid 0.5px #a5a5a5;
+}
+
+/* .description {
+  color: #777;
+} */
+
+.subtitle {
+  color: #777;
+  font-size: 0.9em;
+  border-bottom: solid 1px #777;
+}
+
+.img-container {
+  margin: 0 0 1ex 10%;
+  img {
+    width:90%;
+  }
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #999999;
+  font-size: 0.8em;
+  padding: 2ex 0 15px 0;
+  a {
+    color: #999999;
+  }
+}
+
+.navbar {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar > li {
+  margin: 2ex 0 2ex 0;
+}
+
+/*---------------------------------------------------*/
+/*---------------------------------------------------*/
+
+@media (max-width: 810px) {
+  .wrapper {
+    flex-direction: column;
+  }
+  img.me {
+    width: 200px;
+  }
+  main {
+    margin-left: 0px;
+    padding-left: 0em;
+  }
+  header {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+}
+
+@media (max-width: 400px) {
+  img.me {
+    width: 100%;
+  }
+  .img-container > img {
+    width:90%;
+  }
+}
