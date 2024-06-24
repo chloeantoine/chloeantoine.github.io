@@ -19,7 +19,7 @@ li {
 
 a, a:visited {
   text-decoration: none;
-  color: #32a861
+  color: #32a861;
 }
 
 a:hover {
@@ -72,10 +72,6 @@ main {
 .section {
   border-bottom: solid 0.5px #a5a5a5;
 }
-
-/* .description {
-  color: #777;
-} */
 
 .subtitle {
   color: #777;
