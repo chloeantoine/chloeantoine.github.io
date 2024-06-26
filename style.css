@@ -48,15 +48,16 @@ img.me {
 header {
   margin: 0;
   padding: 0;
-  width: 200px;
+  width: 250px;
   position: fixed;
   height: 100%;
   overflow: auto;
 }
 
 main {
-  margin-left: 200px;
+  margin-left: 250px;
   padding-left: 3em;
+  font-size: 0.9em;
   text-align: justify;
   p {
     color: #777;
@@ -80,9 +81,9 @@ main {
 }
 
 .img-container {
-  margin: 0 0 1ex 10%;
+  margin: 0 0 1ex 0;
   img {
-    width:90%;
+    width:100%;
   }
 }
 
@@ -99,6 +100,14 @@ main {
   }
 }
 
+.conf {
+  display: flex;
+}
+
+.conf > .date {
+  margin-right: 1em;
+}
+
 .navbar {
   padding: 0;
   margin: 0;
@@ -109,8 +118,20 @@ main {
 }
 
 .small {
-  color: #32a861;
-  font-size: 0.8em;
+  color: #7c7f7d;
+  font-size: 0.85em;
+}
+
+.grey {
+  color: #777;
+}
+
+.violet {
+  color: #3333b2;
+}
+
+ul.spacedlist > li {
+  margin-bottom: 1ex;
 }
 
 /*---------------------------------------------------*/
